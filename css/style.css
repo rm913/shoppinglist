@@ -1,0 +1,68 @@
+body{
+	background-image: url('../img/back.jpg');
+
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+	text-align: center;
+
+}
+h2{
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+
+.new-item{
+	text-align: center;
+	margin: auto;
+}
+
+.new-item>p{
+	border: dashed gray;
+	margin: 2em auto;
+	width: 25em;
+}
+.new-item button{
+	background-color: green;
+	margin: 1em;
+	padding: .5em;
+}
+
+.main{
+	margin-top: 2em;
+
+}
+.instruction{
+	text-align: center;
+}
+.list{
+
+	margin: auto;
+}
+.list ul{
+	height: 50em;
+	background-color: brown;
+	background-repeat: no-repeat;
+	background-size: 40%;
+	margin: auto;
+	padding-top: 4.1em;
+	width: 20em;
+
+
+}
+.list li{
+	padding: .05em;
+	list-style-type: none;
+
+}
+.list span{
+	width: 4em;
+	display: inline-block;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 1.4em;
+}
+.list .checkbox_id{
+	margin-left: 10em;
+}
