@@ -47,7 +47,7 @@ h2{
 	background-repeat: no-repeat;
 	background-size: 40%;
 	margin: auto;
-	padding-top: 4.1em;
+	padding-top: 1em;
 	width: 20em;
 
 
@@ -56,9 +56,18 @@ h2{
 	padding: .05em;
 	list-style-type: none;
 	width: 4em;
-	display: inline-block;
+	display: block;
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 1.4em;
 
+}
+.box{
+	display: none;
+	border: solid black;
+	width: 1em;
+	height: 1em;
+}
+.fa .fa-check-square-o {
+	display: none;
 }
 
